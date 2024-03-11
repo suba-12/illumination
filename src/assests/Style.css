@@ -1,0 +1,468 @@
+
+
+
+/*----------Sidebar------------*/
+#col {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-right: 10%;
+
+}
+
+#links{
+  text-decoration: none;
+  color: black;
+
+}
+
+#side {
+    display: grid;
+    width: 10%;
+    height:30%;
+    align-items: stretch;
+    
+}
+  
+  .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; 
+  }
+  
+  
+  .heading {
+    margin-right: 20px; 
+    margin-top: 200px;
+  }
+  
+  .sidebar-logo {
+    width: 100px; 
+    height: 70px; 
+    margin-right: -20px;
+
+  }
+
+  .sidebar-line {
+    margin-left: -1rem;
+    width: 128%;
+    height: 1px; 
+    background-color:black; 
+     margin-top: 18px; 
+  }
+  .dashboard-item {
+    color :black;
+  }
+ 
+  .dashboard-item:hover {
+    background-color: lightgreen; 
+    border-radius: 5px; 
+    color: rgb(40, 95, 54);
+
+  }
+
+  #menu{
+    color: white;
+    margin-top: 15px;
+  }
+
+
+
+/*------------------------------   Fead  ----------------------------------------------------*/
+
+
+  .fead-container20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .home-button {
+    margin-right: 10px;
+    margin-left: 150px;
+
+  }
+  
+  .header .good-morning {
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: -50px;
+    
+    
+  }
+  .header .notification-icon {
+    margin-left: 10px;
+  }
+  
+  
+ 
+  .home-button {
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px; 
+    background-color: #1c1c1c; /* Set the background color to "#1c1c1c" */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+  }
+  
+  
+  .header.avatar{
+    margin-top: 30px;
+  }
+
+
+  
+  #living .room{
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .room {
+    margin-top: 45px;
+    margin-left: 15px;
+  }
+
+  .livingcard{
+    margin-top: -35px;
+  }
+  
+  .card {
+    padding: 5px 20px;
+    margin: 40px 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 150px;
+    width: 290px;
+    display: flex;
+    border-radius: 27px !important;
+    
+  }
+  
+ 
+  .card1 {
+    padding: 5px 20px;
+    margin: 40px 50px;
+    height: 95px;
+    width: 180px;
+    border-radius: 20px !important;
+  }
+  .card2 {
+    padding: 5px 20px;
+    margin: 40px -35px;
+    height: 95px;
+    width: 180px;
+    display: flex;
+    border-radius: 20px !important;
+  }
+  
+  .text{
+    color: #ebebeb;
+    margin-left: 4rem;
+    margin-top: -6px;
+    font-size: 18px;
+  }
+  .text1{
+    color: black;
+    margin-left: 1rem;
+    margin-top: -9px;
+    font-size: 15px;
+  }
+  .devtext{
+    color: #6344c6;
+  }
+  .smallcard{
+    height: 95px;
+    width: 80px;
+    background-color: #EBECF0!important;
+    margin-top: 30px;
+  }
+  .smallcard1{
+    height: 95px;
+    width: 80px;
+    background-color: #EBECF0 !important;
+    margin-top: -93px;
+    margin-left: 90px;
+  }
+  .smallcard2{
+    height: 95px;
+    width: 80px;
+    background-color:#EBECF0 !important;
+    margin-top: -93px;
+    margin-left: 180px;
+  }
+
+.devtext1{
+  color:gray ;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.icons{
+  color:gray;
+  margin-top: 23px;
+  margin-left: 13px;
+}
+  .card3 {
+    padding: 5px 20px;
+    margin: -18px -80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 210px;
+    width: 280px;
+    display: flex;
+    border-radius: 8% !important;
+      border: 3px solid #280e64;
+    }
+    
+
+
+  .cardd {
+    padding: 5px 20px;
+    margin: -102px -105px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 38px;
+    width: 410px;
+    display: flex;
+    border-radius: 20px !important;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      height: 100px;
+      width: 200px;
+    }
+    .card1,
+  .card2,
+  .card3,
+  .cardd {
+    display: none;
+  }
+
+  .card {
+    height: 160px;
+    width: 80%;
+    margin: 40px;
+    border-radius: 10px;
+  }
+}
+
+
+.navbar {
+  border-bottom: 1px solid black;
+  width: 62%;
+  margin: 6px 1rem;
+  border-radius: 20px;
+  background-color:#f6fcf4;
+  padding: -10px; 
+  
+}
+
+
+    .hover-button {
+      font-size: 1.8rem;
+      padding: 1.5rem 2.5rem;
+      width: 200px;
+      height: 40px;
+    }
+
+.hover-button:hover {
+  background-color: lightblue !important;
+}
+
+
+.carddevice{
+  padding: 5px 20px;
+  margin: 9px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 140px;
+  width: 290px;
+  display: flex;
+  border-radius: 20px !important;
+  background-color: #ebebeb; 
+}
+
+.carddevice2{
+  padding: 5px 20px;
+  margin: 8px -50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 140px;
+  width: 290px;
+  display: flex;
+  border-radius: 8% !important;
+
+}
+
+
+
+.carddevice3{
+  padding: 5px 20px;
+  margin: -100px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 410px;
+  width: 280px;
+  display: flex;
+  border-radius: 20px !important;
+  
+}
+
+.carddevice4{
+  padding: 5px 20px;
+  margin: -30px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 140px;
+  width: 290px;
+  display: flex;
+  border-radius: 20px !important;
+}
+
+.carddevice5{
+  padding: 5px 20px;
+  margin: -150px 370px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 140px;
+  width: 290px;
+  display: flex;
+  border-radius: 20px !important;
+}
+
+.rooms{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.search-bar{
+  margin-left: 70px;
+  border-color:none;
+
+}
+input[type="text"] {
+  width: 90px; 
+  padding: 10px; 
+  border-radius: 20px;
+  height: 9px;
+  margin-top: 30px;
+  border-color:none;
+  background-color:#ebebeb ;
+}
+.innercard{
+  margin-top: 90px;
+  width: 280px;
+  height: 70px;
+  border-radius: 20px !important;
+  margin-left: -260px;
+  background-color:#ebebeb !important ;
+}
+.innercard1{
+  margin-top: 17px;
+  width: 280px;
+  height: 70px;
+  border-radius: 20px !important;
+  margin-left: -260px;
+  background-color:#ebebeb !important ;
+}
+
+.textin{
+  margin-right:100px;
+  margin-bottom: -50px;
+}
+
+/*------------------------------   AUTOMATION ----------------------------------------------------*/
+.smallcardd{
+  height: 90px;
+  width: 65px;
+  background-color: #EBECF0!important;
+  margin-top: 30px;
+}
+.smallcardd1{
+  height: 90px;
+  width: 65px;
+  background-color: #EBECF0 !important;
+  margin-top: -93px;
+  margin-left: 90px;
+}
+.smallcardd2{
+  height: 90px;
+  width: 65px;
+  background-color:#EBECF0 !important;
+  margin-top: -93px;
+  margin-left: 180px;
+}
+
+.autocard{
+  padding: 5px 20px;
+  margin: 40px 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid rgba(9, 9, 202, 0.817);
+  height: 150px;
+  width: 340px;
+  display: flex;
+  border-radius: 27px !important;
+  
+}
+
+.autocard1{
+  padding: 5px 20px;
+  margin: 40px 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 150px;
+  width: 340px;
+  border: 2px solid rgba(223, 196, 17, 0.817);
+  margin-top: -15px;
+  display: flex;
+  border-radius: 27px !important;
+  
+}
+
+.autocard2{
+  padding: 5px 20px;
+  margin: 40px 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 150px;
+  width: 340px;
+  border: 2px solid rgba(43, 227, 46, 0.817);
+  margin-top: -15px;
+  display: flex;
+  border-radius: 27px !important;
+  
+}
+
+.smallcard-dev{
+  height: 120px;
+  width: 120px;
+  background-color:white!important;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.smallcard1-dev{
+  height: 120px;
+  width: 120px;
+  background-color: white !important;
+  margin-top: -120px;
+  margin-left: 190px;
+}
+
+.smallcard2-dev{
+  height: 120px;
+  width: 120px;
+  background-color: white!important;
+  margin-top: -120px;
+  margin-left: 330px;
+}
+.smallcard3-dev{
+  height: 120px;
+  width: 120px;
+  background-color: white !important;
+  margin-top: -120px;
+  margin-left: 470px;
+}

@@ -1,0 +1,119 @@
+
+/*------------------------------   Fead  ----------------------------------------------------*/
+
+
+.fead-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .header .home-button {
+    margin-right: 10px;
+    margin-left: 150px;
+  
+  }
+  
+  .header .good-morning {
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+  }
+  .header .notification-icon {
+    margin-left: 10px;
+  }
+  
+  
+  
+  .home-button {
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px; 
+    background-color: #1c1c1c; /* Set the background color to "#1c1c1c" */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+  }
+  
+  
+  .header.avatar{
+    margin-top: 30px;
+  }
+  
+  
+  
+  
+  .setingid{
+  margin-top:  50px; 
+  
+  }
+  
+  
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .cardinner {
+  
+  display: flex;
+  width: 1000px;
+  height: 550px;
+  background-color: #ffffff;
+  border-radius: 4%;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Center horizontally with auto margins */
+  /* Add more styling properties as desired */
+  }
+  .sidebar1{
+  width: 200px;
+  padding: 0;
+  border-right: 1px solid #ccc;
+  
+  }
+  
+  .cardinner .MuiListItem-button:hover {
+  background-color: #f0fbee;
+  color: rgb(34, 183, 31);
+  border-radius: 5px; 
+  }
+  
+  
+  .inner-card{
+  display: flex;
+  width: 600px;
+  height:110px;
+  background-color: #1e0b0b;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  margin-left: -100px;
+  }
+  
+  .new-card {
+  display: flex;
+  width: 600px;
+  height: 180px;
+  background-color: #1e0b0b;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 190px;
+  margin-left: -600px;
+  }
+  
+  
+  .selector{
+  margin-top: 330px;
+  }
+  
